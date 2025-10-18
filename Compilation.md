@@ -1,4 +1,10 @@
-# Linux
+This page is a work-in-progress
+
+## CMake options
+
+stub
+
+## Linux
 
 ```shell
 # dependencies
@@ -33,3 +39,11 @@ cmake                                \
 
 cmake --build .
 ```
+
+## Wacos
+
+stub
+
+## Windows
+
+stub
