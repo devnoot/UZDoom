@@ -40,7 +40,7 @@ cmake                                \
 cmake --build .
 ```
 
-## Wacos
+## MacOS
 
 stub
 
