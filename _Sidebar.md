@@ -1,4 +1,6 @@
-### [UZDoom](Home)
+Welcome to UZDoom
+
+### UZDoom
 
 - [Installation](Getting-Started#Installing)
 - [How to Play](Getting-Started#How-to-Play)
