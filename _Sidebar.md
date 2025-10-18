@@ -1,7 +1,9 @@
 # UZDoom
 
-# Getting Started
+## Getting Started
 
-# Programmer's Corner
+[Home](Home)
 
-# FAQ
+## Programmer's Corner
+
+## FAQ
