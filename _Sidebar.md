@@ -1,9 +1,12 @@
-# UZDoom
+### [UZDoom](Home)
 
-## Getting Started
+- [Installation](Getting-Started#Installing)
+- [How to Play](Getting-Started#How-to-Play)
+- [Frequently Asked Questions](Getting-Started#Frequently-Asked-Questions)
+- [Resources](Getting-Started#Resources)
 
-[Home](Home)
+### Programmer's Corner
 
-## Programmer's Corner
-
-## FAQ
+- [Compiling on Linux](Compilation#linux)
+- [Compiling on MacOS](Compilation#macos)
+- [Compiling on Windows](Compilation#windows)
