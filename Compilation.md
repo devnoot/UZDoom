@@ -29,7 +29,7 @@ mkdir -p UZDoom/build
 cd UZDoom/build
 
 cmake                                \
-  -DCMAKE_BUILD_TYPE=Debug           \
+  -DCMAKE_BUILD_TYPE=RelWithDebInfo  \
   -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
   -DBUILD_SHARED_LIBS=OFF            \
   -G Ninja                           \
@@ -75,7 +75,7 @@ oal=/opt/homebrew/Cellar/openal-soft/$oal
 vpx=/opt/homebrew/Cellar/libvpx/$vpx
 
 cmake                                       \
-  -DCMAKE_BUILD_TYPE=Debug                  \
+  -DCMAKE_BUILD_TYPE=RelWithDebInfo         \
   -DCMAKE_EXPORT_COMPILE_COMMANDS=ON        \
   -DBUILD_SHARED_LIBS=OFF                   \
   -DOPENAL_INCLUDE_DIR=$oal/include/AL      \
@@ -107,11 +107,11 @@ Make sure you have [CMake](https://cmake.org/download/#latest) and Microsoft Vis
 
 3. Click Generate. You will now have the solution available inside your folder containing the source.
 
-4. Go into the `build` folder CMake created and open the Visual Studio solution (UZDoom.sln). By default it will have the Debug build ready to compile. In the top, select the drop down where it says Debug and change this to Release.
+4. Go into the `build` folder CMake created and open the Visual Studio solution (UZDoom.sln). By default it will have the Debug build ready to compile. In the top, select the drop down where it says Debug and change this to RelWithDebInfo.
 
 5. Under the Build menu, select Build Solution. If compiled correctly, there should be no errors at the bottom of the console.
 
-6. Within your `build` folder should now be a Release folder (or whichever version you decided to compile). This will contain the executable and engine data needed to start UZDoom.
+6. Within your `build` folder should now be a RelWithDebInfo folder (or whichever version you decided to compile). This will contain the executable and engine data needed to start UZDoom.
 
 7. Make sure you have `openal32.dll` and `libsndfile-1.dll` included in the folder with your executable for full audio support. By default these do not come with the project but can be copied from any existing UZDoom release (currently GZDoom 4.14.2 is the latest).
 
