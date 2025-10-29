@@ -111,7 +111,7 @@ Make sure you have [CMake](https://cmake.org/download/#latest) and Microsoft Vis
 
 5. Under the Build menu, select Build Solution. If compiled correctly, there should be no errors at the bottom of the console.
 
-6. Within your `build` folder should now be a Release folder (or whatever version you decided to compile). This will contain the executable and engine data needed to start UZDoom.
+6. Within your `build` folder should now be a Release folder (or whichever version you decided to compile). This will contain the executable and engine data needed to start UZDoom.
 
 7. Make sure you have `openal32.dll` and `libsndfile-1.dll` included in the folder with your executable for full audio support. By default these do not come with the project but can be copied from any existing UZDoom release (currently GZDoom 4.14.2 is the latest).
 
