@@ -7,16 +7,24 @@ stub
 ## Linux
 
 ```shell
-# dependencies
+# tools
 
 sudo apt-get install \
   build-essential    \
+  git                \
+  cmake              \
+  ninja-build
+
+# dependencies
+
+sudo apt-get install \
+  libbz2-dev         \
+  libomp-dev         \
+  libopenal-dev      \
   libsdl2-dev        \
   libvpx-dev         \
-  libgtk2.0-dev      \
   libwebp-dev        \
-  waylandpp-dev      \
-  ninja-build
+  waylandpp-dev
 
 # pull
 
@@ -97,7 +105,7 @@ cmake --build .
 
 These instructions will be for compiling with CMake as this is considered the simplest and most well-supported way to compile on Windows. 32-bit versions of UZDoom are not supported.
 
-Make sure you have [CMake](https://cmake.org/download/#latest) and Microsoft Visual Studio Community downloaded (only 2019 and above are officially supported). If you wish to stay up-to-date with UZDoom development, you can use [Git](https://git-scm.com/install/windows) to clone the repo. Otherwise, you can download the source as a ZIP from the `Code` button on the Code tab (make sure to extract it if you do).
+Make sure you have [CMake](https://cmake.org/download/#latest) and Microsoft Visual Studio Community installed (only 2019 and above are officially supported). Visual Studio will need the "Desktop development with C++" workflow enabled. If you wish to stay up-to-date with UZDoom development, you can use [Git](https://git-scm.com/install/windows) to clone the repo. Otherwise, you can download the source as a ZIP from the `Code` button on the Code tab (make sure to extract it if you do).
 
 ### CMake GUI Instructions
 
