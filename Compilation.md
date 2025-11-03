@@ -6,6 +6,9 @@ stub
 
 ## Linux
 
+### Tools/Dependencies
+* apt-based distros:
+
 ```shell
 # tools
 
@@ -25,7 +28,21 @@ sudo apt-get install \
   libvpx-dev         \
   libwebp-dev        \
   waylandpp-dev
+```
+* pacman-based distros:
+```shell
+# tools
+pacman -S base-devel git cmake ninja
 
+# dependencies
+pacman -S bzip2 openmp openal sdl2-compat libvpx libwebp waylandpp
+```
+* rpm-based distros:
+```shell
+#TODO
+```
+### Compilation
+```shell
 # pull
 
 git clone https://github.com/UZDoom/UZDoom.git
