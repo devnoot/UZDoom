@@ -138,7 +138,7 @@ Make sure you have [CMake](https://cmake.org/download/#latest) and [Microsoft Vi
 
 6. Within your `build` folder should now be a RelWithDebInfo folder (or whichever version you decided to compile). This will contain the executable and engine data needed to start UZDoom.
 
-7. Make sure you have `openal32.dll` and `libsndfile-1.dll` included in the folder with your executable for full audio support. By default these do not come with the project but can be copied from any existing UZDoom release (currently GZDoom 4.14.2 is the latest).
+7. Make sure you have `soft_oal.dll` and `libsndfile-1.dll` included in the folder with your executable for full audio support. By default these do not come with the project but can be copied from any existing UZDoom release (currently GZDoom 4.14.2 is the latest).
 
 ### CMake CLI Instructions
 
