@@ -127,18 +127,18 @@ Make sure you have [CMake](https://cmake.org/download/#latest) and [Microsoft Vi
 ### CMake GUI Instructions
 
 1. Open CMake GUI and, for the source code option, select the folder containing the source. For the build destination option, select the same folder and add `/build` to the end of it.
-
 2. Press the Configure button. When asked if you'd like to create the `build` folder, select yes. You will then be prompted which version of Visual Studio you'd like to use. Select the one you have downloaded and press Finish. If configured correctly, you should see no error messages at the bottom of the console.
-
 3. Click Generate. You will now have the solution available inside your folder containing the source.
-
 4. Go into the `build` folder CMake created and open the Visual Studio solution (UZDoom.sln). By default it will have the Debug build ready to compile. In the top, select the drop down where it says Debug and change this to RelWithDebInfo.
-
 5. Under the Build menu, select Build Solution. If compiled correctly, there should be no errors at the bottom of the console.
-
 6. Within your `build` folder should now be a RelWithDebInfo folder (or whichever version you decided to compile). This will contain the executable and engine data needed to start UZDoom.
 
-7. Make sure you have `soft_oal.dll` and `libsndfile-1.dll` included in the folder with your executable for full audio support. By default these do not come with the project but can be copied from any existing UZDoom release (currently GZDoom 4.14.2 is the latest).
+7. Make sure you have `soft_oal.dll` and `sndfile.dll` included in the folder with your executable for full audio support. By default these do not come with the project but can be copied from the latest [UZDoom release](https://github.com/UZDoom/UZDoom/releases).
+
+   Alternatively, you can collect the required dlls from their respective project's github releases:
+
+    - [soft_oal.dll](https://github.com/kcat/openal-soft/releases/1.23.1) specifically `openal-soft-1.23.1-bin/bin/Win64/soft_oal.dll`
+    - [sndfile.dll](https://github.com/libsndfile/libsndfile/releases/1.2.2) specifically `libsndfile-1.2.2-win64/bin/sndfile.dll`
 
 ### CMake CLI Instructions
 
