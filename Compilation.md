@@ -7,7 +7,30 @@ stub
 ## Linux
 
 ### Tools/Dependencies
-* apt-based distros:
+
+<!-- If changing requirements or distro-specific package lists, please update the date for that section -->
+<!-- Requirements updated 2025/11/20 -->
+
+For tooling, you need:
+* a modern c++ compiler
+* python3
+* cmake
+* git
+* ninja
+
+For libraries, you need the development headers of:
+* bzip2
+* OpenMP
+* OpenAL
+* SDL2
+* libvpx
+* libwebp
+* wayland++
+
+Below are a list of packages for a number of distros:
+
+<details><summary>Debian</summary>
+<!-- Packages updated 2025/11/20 -->
 
 ```shell
 # tools
@@ -29,19 +52,67 @@ sudo apt-get install \
   libwebp-dev        \
   waylandpp-dev
 ```
-* pacman-based distros:
+
+</details>
+
+<details><summary>Fedora</summary>
+<!-- Packages updated 2025/11/20 -->
+
 ```shell
 # tools
-pacman -S base-devel git cmake ninja
+
+# TODO
 
 # dependencies
-pacman -S bzip2 openmp openal sdl2-compat libvpx libwebp waylandpp
+
+# TODO
 ```
-* rpm-based distros:
+
+</details>
+
+<details><summary>Arch</summary>
+<!-- Packages updated 2025/11/20 -->
+
 ```shell
-#TODO
+# tools
+
+pacman -S    \
+  base-devel \
+  git        \
+  cmake      \
+  ninja
+
+# dependencies
+
+pacman -S     \
+  bzip2       \
+  openmp      \
+  openal      \
+  sdl2-compat \
+  libvpx      \
+  libwebp     \
+  waylandpp
 ```
+
+</details>
+
+<details><summary>SUSE</summary>
+<!-- Packages updated 2025/11/20 -->
+
+```shell
+# tools
+
+# TODO
+
+# dependencies
+
+# TODO
+```
+
+</details>
+
 ### Compilation
+
 ```shell
 # pull
 
@@ -56,7 +127,6 @@ cd UZDoom/build
 cmake                                \
   -DCMAKE_BUILD_TYPE=RelWithDebInfo  \
   -DCMAKE_EXPORT_COMPILE_COMMANDS=ON \
-  -DBUILD_SHARED_LIBS=OFF            \
   -G Ninja                           \
   ..
 
