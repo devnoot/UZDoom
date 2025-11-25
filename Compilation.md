@@ -163,20 +163,14 @@ mkdir -p UZDoom/build
 
 cd UZDoom/build
 
-oal=$(brew list openal-soft --versions | cut -d' ' -f2)
-vpx=$(brew list libvpx --versions | cut -d' ' -f2)
-
-oal=/opt/homebrew/Cellar/openal-soft/$oal
-vpx=/opt/homebrew/Cellar/libvpx/$vpx
-
 cmake                                       \
   -DCMAKE_BUILD_TYPE=RelWithDebInfo         \
   -DCMAKE_EXPORT_COMPILE_COMMANDS=ON        \
   -DBUILD_SHARED_LIBS=OFF                   \
-  -DOPENAL_INCLUDE_DIR=$oal/include/AL      \
-  -DOPENAL_LIBRARY=$oal/lib/libopenal.dylib \
-  -DVPX_INCLUDE_DIR=$vpx/include            \
-  -DVPX_LIBRARIES=$vpx/lib/libvpx.a         \
+  -DOPENAL_INCLUDE_DIR=/opt/homebrew/opt/openal-soft/include/AL      \
+  -DOPENAL_LIBRARY=/opt/homebrew/opt/openal-soft/lib/libopenal.dylib \
+  -DVPX_INCLUDE_DIR=/opt/homebrew/opt/libvpx/include                 \
+  -DVPX_LIBRARIES=/opt/homebrew/opt/libvpx/lib/libvpx.a              \
   -DDYN_OPENAL=OFF                          \
   -DHAVE_VULKAN=ON                          \
   -DHAVE_GLES2=OFF                          \
