@@ -167,10 +167,10 @@ cmake                                       \
   -DCMAKE_BUILD_TYPE=RelWithDebInfo         \
   -DCMAKE_EXPORT_COMPILE_COMMANDS=ON        \
   -DBUILD_SHARED_LIBS=OFF                   \
-  -DOPENAL_INCLUDE_DIR=/opt/homebrew/opt/openal-soft/include/AL      \
-  -DOPENAL_LIBRARY=/opt/homebrew/opt/openal-soft/lib/libopenal.dylib \
-  -DVPX_INCLUDE_DIR=/opt/homebrew/opt/libvpx/include                 \
-  -DVPX_LIBRARIES=/opt/homebrew/opt/libvpx/lib/libvpx.a              \
+  -DOPENAL_INCLUDE_DIR=$(brew --prefix openal-soft)/include/AL       \
+  -DOPENAL_LIBRARY=$(brew --prefix openal-soft)/lib/libopenal.dylib  \
+  -DVPX_INCLUDE_DIR=$(brew --prefix libvpx)/include                  \
+  -DVPX_LIBRARIES=$(brew --prefix libvpx)/lib/libvpx.a               \
   -DDYN_OPENAL=OFF                          \
   -DHAVE_VULKAN=ON                          \
   -DHAVE_GLES2=OFF                          \
