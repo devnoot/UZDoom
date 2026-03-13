@@ -1,4 +1,4 @@
-Welcome to UZDoom
+Welcome to UZDoom!
 
 ### UZDoom
 
