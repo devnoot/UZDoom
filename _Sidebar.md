@@ -2,7 +2,7 @@ Welcome to UZDoom
 
 ### UZDoom
 
-- [Installation](/#Installing)
+- [Installation](Home#Installing)
 
 - [Installation](Getting-Started#Installing)
 - [How to Play](Getting-Started#How-to-Play)
@@ -14,3 +14,4 @@ Welcome to UZDoom
 - [Compiling on Linux](Compilation#linux)
 - [Compiling on MacOS](Compilation#macos)
 - [Compiling on Windows](Compilation#windows)
+
