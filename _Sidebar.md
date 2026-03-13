@@ -7,6 +7,11 @@ Welcome to UZDoom
 - [Frequently Asked Questions](Home#Frequently-Asked-Questions)
 - [Resources](Home#Resources)
 
+### Releases
+
+- [Stable](https://github.com/UZDoom/UZDoom/releases/latest)
+- [Preview](https://github.com/UZDoom/UZDoom/releases/tag/nightly)
+
 ### Programmer's Corner
 
 - [Compiling on Linux](Compilation#linux)
