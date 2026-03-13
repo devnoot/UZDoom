@@ -1,5 +1,3 @@
-Welcome to the UZDoom wiki!
-
 # Installation
 
 - Each of these links should contain a number of files under the "Assets" section.
