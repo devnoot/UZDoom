@@ -2,6 +2,8 @@ Welcome to UZDoom
 
 ### UZDoom
 
+- [Installation](/#Installing)
+
 - [Installation](Getting-Started#Installing)
 - [How to Play](Getting-Started#How-to-Play)
 - [Frequently Asked Questions](Getting-Started#Frequently-Asked-Questions)
