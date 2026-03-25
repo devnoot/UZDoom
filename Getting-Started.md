@@ -79,7 +79,7 @@ ZDoom, GZDoom and UZDoom belong to the same family of source ports that started 
 
 GZDoom picked up from that point. While not "officially" discontinued, after version 4.14.2 in 2025 most of its developers moved on to UZDoom.
 
-UZDoom is a fork and a direct continuation of GZDoom. At the moment, it aims to support everything that was available in the latest GZDoom dev builds prior to the move, and to add more features in the future. It maintains full reverse compatibility with GZDoom.
+UZDoom is a fork and a direct continuation of GZDoom. At the moment, it aims to support everything that was available in the latest GZDoom dev builds prior to the move, and to add more features in the future. It maintains full reverse compatibility with GZDoom versions prior to the fork (compatibility with possible future versions of GZDoom may be kept, but is not guaranteed).
 
 </details>
 
