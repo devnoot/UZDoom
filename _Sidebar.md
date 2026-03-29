@@ -11,7 +11,7 @@ Welcome to UZDoom!
 
 - [Stable](https://github.com/UZDoom/UZDoom/releases/latest)
 - [Preview](https://github.com/UZDoom/UZDoom/releases/tag/x-preview)
-- [Experimental](https://github.com/UZDoom/UZDoom/releases/tag/x-experimental)
+- [Experimental](https://github.com/UZDoom/UZDoom/releases/tag/x-testing)
 
 ### Programmer's Corner
 
