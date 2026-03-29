@@ -9,7 +9,7 @@ The latest stable release can be found here: https://zdoom.org/downloads
 Download a latest stable release or a latest development build of UZDoom:
 
 * Latest stable release: https://github.com/UZDoom/UZDoom/releases/latest
-* Latest devbuild: https://github.com/UZDoom/UZDoom/releases/tag/nightly
+* Latest devbuild: https://github.com/UZDoom/UZDoom/releases/tag/x-preview
 
 Each of these links contains a number of files under the "Assets" section:
 
